@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6056504168402616802
+--- !u!114 &-3181837131642752039
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BasicPBR
-  m_Shader: {fileID: -6465566751694194690, guid: a07484a5476aa4b489af07be3fecefad, type: 3}
-  m_ShaderKeywords: 
+  m_Name: 2DHologram
+  m_Shader: {fileID: -6465566751694194690, guid: cf41d511ab14463409ec4595637ddc2d, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -32,18 +32,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_770dd0f9296d407c8efe7d3e69c9e00b:
-        m_Texture: {fileID: 2800000, guid: 26411bf7b322f5241859d61b89eb60f7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_9433741209a04966935dcd9ed414ef26:
-        m_Texture: {fileID: 2800000, guid: 6aa38f95f312cea4294f716bfde45c15, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_a4952147aa194290a95b8220759c7ca8:
-        m_Texture: {fileID: 2800000, guid: 14106f7bd2c0b2547af6a5b2018b7fe3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -101,8 +89,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_99bc8f9653684adaa7cc1f5594bc7663: 0.63
-    - Vector1_c1adc5dda3884d41a77efa542a80c733: 4.16
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -114,6 +100,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FlickSpeed: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -122,6 +109,7 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _ScrollSpeed: 0.4
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -130,8 +118,6 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_96b030a7572645788e59b3ae6859561d: {r: 0, g: 1, b: 0.9430566, a: 0}
-    - Color_a0b83f54154e48c0a26eaa884025c473: {r: 0.24650393, g: 0.26415092, b: 0.09095763, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
